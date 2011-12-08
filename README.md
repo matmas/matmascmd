@@ -13,4 +13,4 @@ Features:
  - file upload
  - execution of system commands
  - evaluation of PHP commands
- - a bit more secure authentification without HTTPS - password is time-salted + hashed by javascript before sending it to server. Time difference is taken into account. Still, HTTPS is highly recommended.
+ - protection against passive password loggers. Still, use of HTTPS is recommended to prevent man-in-the-middle attack. Password is time-salted + hashed by javascript before sending it to server. Time difference is taken into account.
