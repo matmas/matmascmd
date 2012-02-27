@@ -6,8 +6,6 @@ Default password is `matmascmd`, change its hash in source file.
 
 ![Matmas commander screenshot"](https://github.com/matmas/matmascmd/raw/master/screenshot.png "Matmas Commander")
 
-License: [GPLv3](http://www.gnu.org/licenses/gpl.html)
-
 Features:
 
  - easy to deploy - one file matmascmd.php (+ optional pclzip.lib.php for zip support)
@@ -18,3 +16,5 @@ Features:
  - execution of system commands
  - evaluation of PHP commands
  - protection against passive password loggers. Still, use of HTTPS is recommended to prevent man-in-the-middle attack. Password is time-salted + hashed by javascript before sending it to server. Time difference is taken into account.
+
+Code license: [GPLv3](http://www.gnu.org/licenses/gpl.html)
