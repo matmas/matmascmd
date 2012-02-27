@@ -4,6 +4,8 @@ Matmas Commander
 Matmas Commaner is a twin-pane PHP file manager.
 Default password is `matmascmd`, change its hash in source file.
 
+![Matmas commander screenshot"](https://github.com/matmas/matmascmd/raw/master/screenshot.png "Matmas Commander")
+
 License: [GPLv3](http://www.gnu.org/licenses/gpl.html)
 
 Features:
