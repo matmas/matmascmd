@@ -17,7 +17,7 @@
 
 session_start();
 @set_time_limit(0);
-@dl("php_zlib.dll");
+#@dl("php_zlib.dll"); # uncomment this on windows machine
 define("PCLZIPLIB", "pclzip.lib.php");
 
 
